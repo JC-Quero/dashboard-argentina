@@ -6,7 +6,7 @@
 
 **Argie Market Live** es un dashboard financiero en tiempo real diseñado para monitorear la economía argentina. Combina datos del mercado cambiario (Dólar Blue, MEP, CCL) y el mercado bursátil (ADRs argentinos en Wall Street) en una interfaz unificada y estética.
 
-🔗 **[Ver Demo en Vivo](https://TU-URL-DE-STREAMLIT.streamlit.app)** *(Reemplaza este link con tu URL real cuando la tengas)*
+🔗 **[(https://dashboard-argentina.streamlit.app/)](https://dashboard-argentina.streamlit.app/)**
 
 ---
 
@@ -23,8 +23,6 @@
 
 ## 🛠️ Tecnologías Usadas
 
-Este proyecto combina **Computer Science** con **Finanzas** utilizando:
-
 * **Python:** Lenguaje principal.
 * **Streamlit:** Framework para convertir scripts de datos en Web Apps.
 * **Pandas:** Manipulación y análisis de datos financieros.
@@ -37,8 +35,8 @@ Si quieres correr este proyecto en tu propia máquina:
 
 1.  **Clonar el repositorio**
     ```bash
-    git clone [https://github.com/TU_USUARIO/nombre-repo.git](https://github.com/TU_USUARIO/nombre-repo.git)
-    cd nombre-repo
+    git clone https://github.com/JC-Quero/dashboard-argentina.git
+    cd dashboard-argentina
     ```
 
 2.  **Instalar dependencias**
@@ -57,5 +55,3 @@ Si quieres correr este proyecto en tu propia máquina:
 ├── app_argentina.py   # Lógica principal y UI
 ├── requirements.txt   # Librerías necesarias
 ├── README.md          # Documentación
-└── .streamlit/
-    └── config.toml    # Configuración de tema (Light Mode)
